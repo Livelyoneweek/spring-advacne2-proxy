@@ -1,5 +1,6 @@
 package hello.proxy.jdkdynamic;
 
+import hello.proxy.common.jdkdynamic.code.*;
 import hello.proxy.jdkdynamic.code.*;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
