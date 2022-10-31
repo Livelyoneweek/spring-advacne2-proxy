@@ -17,6 +17,7 @@ public class LogTraceAspect {
         this.logTrace = logTrace;
     }
 
+
     @Around("execution(* hello.proxy.app..*(..))") // @Around 는 포인트컷 조건
     public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {
 
